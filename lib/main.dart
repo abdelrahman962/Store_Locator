@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'store_tracking.dart';
+import 'stores_tracking.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Store Locator',
       theme: ThemeData(),
-      home: const MapScreen(),
+      home: const StoreMapScreen(),
       debugShowCheckedModeBanner: false,
     );
   }

@@ -1,34 +1,35 @@
+
 # Store Locator App
 
-**Store Locator** is an app designed to help you find stores and navigate routes easily. It uses **Flutter Map** for interactive maps, **OpenStreetMap** for map data, and **OpenRouteService** to give you walking directions in real time.
+**Store Locator** is an app designed to help you find stores and navigate routes easily. It uses **Flutter Map** for interactive maps, **OpenStreetMap** for map data, and **OSRM** to provide driving directions in real time.
 
 ---
 
 ## What It Can Do
 
-- **Detect Your Current Location**  
+* **Detect Your Current Location**
   As soon as you open the app, it detects your location and sets it as your starting point.
 
-- **Search for Places**  
+* **Search for Places**
   Type the name of a location — your current location is automatically set as the source, and you can choose any destination.
 
-- **Show Routes**  
-  Draws a clear walking path from your current location to the destination so you can follow it easily.
+* **Show Routes**
+  Draws a clear route from your current location to the destination so you can follow it easily.
 
-- **Add Markers**  
+* **Add Markers**
   Marks your current location and destination on the map so you always know where you are.
 
-- **Tap to Explore**  
-  Tap anywhere on the map to create a new destination and see the route instantly.
+* **Real-Time Location Updates**
+  Continuously updates your location on the map as you move.
 
 ---
 
 ## Technologies Used
 
-- **Flutter Map** – Enables interactive maps.  
-- **OpenStreetMap (OSM)** – Provides map data.  
-- **OpenRouteService API** – Calculates walking routes.  
-- **Location** – Detects GPS coordinates.  
-- **HTTP** – Handles API requests and reverse geocoding.
+* **Flutter Map** – Enables interactive maps.
+* **OpenStreetMap (OSM)** – Provides map data.
+* **OSRM API** – Calculates driving routes.
+* **Location** – Detects GPS coordinates.
+* **HTTP** – Handles API requests and reverse geocoding with Nominatim.
 
 ---
